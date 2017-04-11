@@ -1,0 +1,136 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 3, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/percircle.css" />
+    <style>
+        #logo {
+            vertical-align: middle;
+        }
+
+        #secondrow {
+            margin-top: 15px;
+        }
+
+        #canvas {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div id="firstrow" class="row">
+            <div class="col-md-12" style="background-color:rgb(248,248,248)">
+                <img id="logo" alt="Bootstrap Image Preview" src="img/logo.jpg">
+                <table style="float: right; vertical-align: middle">
+                    <tbody>
+                    <tr>
+                        <td><span>hello, 16@test.com</span></td>
+                        <td><a class="btn"><strong>Log out</strong></a></td>
+                    </tr>
+                    </tbody>                   
+                </table>
+            </div>
+        </div>
+        <div id="secondrow" class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <div class="col-md-3">
+                    <img alt="Bootstrap Image Preview" src="img/person.jpg">
+                </div>
+                <div class="col-md-5">
+                    <table border="0" height="123" width="580" style="border:solid black 2px">
+                        <tbody>
+                            <tr><td align="left">Market</td><td><span style="margin-left:10px">Fill in who are your customers?</span></td><td></td></tr>
+                            <tr><td align="left">Pain</td><td><span style="margin-left:10px">What is the pain statement that you are trying to solve for them?</span></td><td></td></tr>
+                            <tr><td align="left">Benefit</td><td><span style="margin-left:10px">What is the benefit that will match that pain statement?</span></td><td></td></tr>
+                            <tr><td></td><td></td><td><button class="btn btn-secondary">Edit Profile</button></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6" style="border:solid black 0px">
+                <h3 style="padding-left:170px">How is VenturX doing today? Check dash</h3>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2" style="border: solid black 0px">
+                <canvas class="loader1"></canvas>
+            </div>
+            <div class="col-md-2" style="border: solid black 0px">
+                <canvas class="loader2"></canvas>
+            </div>
+            <div class="col-md-2" style="border: solid black 0px">
+                <canvas class="loader3"></canvas>
+            </div>
+            <div class="col-md-2" style="border: solid black 0px">
+                <canvas class="loader4"></canvas>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row" style="height: 30px; margin-top: 10px;">
+            <div class="col-md-2"></div>
+            <div class="col-md-8" style="vertical-align: middle; height: 30px; background-color: lightyellow; border: solid lightgray 0.2px">
+                <span><b>Small Conversation?</b>Learn what you can do to <b>rise your conversation.</b></span>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row" style="height: 30px; margin-top: 10px;">
+            <div class="col-md-2"></div>
+            <div class="col-md-8" style="vertical-align: middle; height: 30px; background-color: lightpink; border: solid lightgray 0.2px">
+                <span><b>Low product store?</b><b>Try this</b> to get more ...</span>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/ProcessCircle.js"></script>
+    <script src="js/ProcessCircle1.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src='js/jquery.classyloader.js'></script>
+    <script>
+        var loader = $('.loader1').ClassyLoader({
+            animate: true,
+            percentage: 10
+        });
+        var loader = $('.loader2').ClassyLoader({
+            animate: true,
+            percentage: 20
+        });
+        var loader = $('.loader3').ClassyLoader({
+            animate: true,
+            percentage: 50
+        });
+        var loader = $('.loader4').ClassyLoader({
+            animate: true,
+            percentage: 90
+        });
+    </script>
+</body>
+</html>

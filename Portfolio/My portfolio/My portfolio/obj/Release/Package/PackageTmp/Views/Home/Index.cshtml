@@ -1,0 +1,31 @@
+﻿@section SPAViews {
+    @Html.Partial("_PersonalPortfolio")
+}
+
+@section Scripts{
+    @*@Scripts.Render("~/bundles/knockout")*@
+    @Scripts.Render("~/bundles/app")
+    <script>
+        var loader = $('.loader0').ClassyLoader({
+            animate: true,
+            percentage: 85
+        });
+        var loader = $('.loader1').ClassyLoader({
+            animate: true,
+            percentage: 75
+        });
+        var loader = $('.loader2').ClassyLoader({
+            animate: true,
+            percentage: 75
+        });
+        var loader = $('.loader3').ClassyLoader({
+            animate: true,
+            percentage: 70
+        });
+        var loader = $('.loader4').ClassyLoader({
+            animate: true,
+            percentage: 80
+        });
+    </script>
+
+}
